@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		141091F92C03092000598B4B /* JP_APEX_PREDATORSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141091F82C03092000598B4B /* JP_APEX_PREDATORSApp.swift */; };
+		141091FB2C03092000598B4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141091FA2C03092000598B4B /* ContentView.swift */; };
+		141091FD2C03092100598B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141091FC2C03092100598B4B /* Assets.xcassets */; };
+		141092002C03092100598B4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141091FF2C03092100598B4B /* Preview Assets.xcassets */; };
+		1410920A2C03092100598B4B /* JP_APEX_PREDATORSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141092092C03092100598B4B /* JP_APEX_PREDATORSTests.swift */; };
+		141092142C03092100598B4B /* JP_APEX_PREDATORSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141092132C03092100598B4B /* JP_APEX_PREDATORSUITests.swift */; };
+		141092162C03092100598B4B /* JP_APEX_PREDATORSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141092152C03092100598B4B /* JP_APEX_PREDATORSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		141092062C03092100598B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 141091ED2C03092000598B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 141091F42C03092000598B4B;
+			remoteInfo = JP_APEX_PREDATORS;
+		};
+		141092102C03092100598B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 141091ED2C03092000598B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 141091F42C03092000598B4B;
+			remoteInfo = JP_APEX_PREDATORS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		141091F52C03092000598B4B /* JP_APEX_PREDATORS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JP_APEX_PREDATORS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		141091F82C03092000598B4B /* JP_APEX_PREDATORSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JP_APEX_PREDATORSApp.swift; sourceTree = "<group>"; };
+		141091FA2C03092000598B4B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		141091FC2C03092100598B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		141091FF2C03092100598B4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		141092052C03092100598B4B /* JP_APEX_PREDATORSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JP_APEX_PREDATORSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		141092092C03092100598B4B /* JP_APEX_PREDATORSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JP_APEX_PREDATORSTests.swift; sourceTree = "<group>"; };
+		1410920F2C03092100598B4B /* JP_APEX_PREDATORSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JP_APEX_PREDATORSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		141092132C03092100598B4B /* JP_APEX_PREDATORSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JP_APEX_PREDATORSUITests.swift; sourceTree = "<group>"; };
+		141092152C03092100598B4B /* JP_APEX_PREDATORSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JP_APEX_PREDATORSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		141091F22C03092000598B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141092022C03092100598B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1410920C2C03092100598B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		141091EC2C03092000598B4B = {
+			isa = PBXGroup;
+			children = (
+				141091F72C03092000598B4B /* JP_APEX_PREDATORS */,
+				141092082C03092100598B4B /* JP_APEX_PREDATORSTests */,
+				141092122C03092100598B4B /* JP_APEX_PREDATORSUITests */,
+				141091F62C03092000598B4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		141091F62C03092000598B4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				141091F52C03092000598B4B /* JP_APEX_PREDATORS.app */,
+				141092052C03092100598B4B /* JP_APEX_PREDATORSTests.xctest */,
+				1410920F2C03092100598B4B /* JP_APEX_PREDATORSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		141091F72C03092000598B4B /* JP_APEX_PREDATORS */ = {
+			isa = PBXGroup;
+			children = (
+				141091F82C03092000598B4B /* JP_APEX_PREDATORSApp.swift */,
+				141091FA2C03092000598B4B /* ContentView.swift */,
+				141091FC2C03092100598B4B /* Assets.xcassets */,
+				141091FE2C03092100598B4B /* Preview Content */,
+			);
+			path = JP_APEX_PREDATORS;
+			sourceTree = "<group>";
+		};
+		141091FE2C03092100598B4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				141091FF2C03092100598B4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		141092082C03092100598B4B /* JP_APEX_PREDATORSTests */ = {
+			isa = PBXGroup;
+			children = (
+				141092092C03092100598B4B /* JP_APEX_PREDATORSTests.swift */,
+			);
+			path = JP_APEX_PREDATORSTests;
+			sourceTree = "<group>";
+		};
+		141092122C03092100598B4B /* JP_APEX_PREDATORSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				141092132C03092100598B4B /* JP_APEX_PREDATORSUITests.swift */,
+				141092152C03092100598B4B /* JP_APEX_PREDATORSUITestsLaunchTests.swift */,
+			);
+			path = JP_APEX_PREDATORSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		141091F42C03092000598B4B /* JP_APEX_PREDATORS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 141092192C03092100598B4B /* Build configuration list for PBXNativeTarget "JP_APEX_PREDATORS" */;
+			buildPhases = (
+				141091F12C03092000598B4B /* Sources */,
+				141091F22C03092000598B4B /* Frameworks */,
+				141091F32C03092000598B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JP_APEX_PREDATORS;
+			productName = JP_APEX_PREDATORS;
+			productReference = 141091F52C03092000598B4B /* JP_APEX_PREDATORS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		141092042C03092100598B4B /* JP_APEX_PREDATORSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1410921C2C03092100598B4B /* Build configuration list for PBXNativeTarget "JP_APEX_PREDATORSTests" */;
+			buildPhases = (
+				141092012C03092100598B4B /* Sources */,
+				141092022C03092100598B4B /* Frameworks */,
+				141092032C03092100598B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				141092072C03092100598B4B /* PBXTargetDependency */,
+			);
+			name = JP_APEX_PREDATORSTests;
+			productName = JP_APEX_PREDATORSTests;
+			productReference = 141092052C03092100598B4B /* JP_APEX_PREDATORSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1410920E2C03092100598B4B /* JP_APEX_PREDATORSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1410921F2C03092100598B4B /* Build configuration list for PBXNativeTarget "JP_APEX_PREDATORSUITests" */;
+			buildPhases = (
+				1410920B2C03092100598B4B /* Sources */,
+				1410920C2C03092100598B4B /* Frameworks */,
+				1410920D2C03092100598B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				141092112C03092100598B4B /* PBXTargetDependency */,
+			);
+			name = JP_APEX_PREDATORSUITests;
+			productName = JP_APEX_PREDATORSUITests;
+			productReference = 1410920F2C03092100598B4B /* JP_APEX_PREDATORSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		141091ED2C03092000598B4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					141091F42C03092000598B4B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					141092042C03092100598B4B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 141091F42C03092000598B4B;
+					};
+					1410920E2C03092100598B4B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 141091F42C03092000598B4B;
+					};
+				};
+			};
+			buildConfigurationList = 141091F02C03092000598B4B /* Build configuration list for PBXProject "JP_APEX_PREDATORS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 141091EC2C03092000598B4B;
+			productRefGroup = 141091F62C03092000598B4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				141091F42C03092000598B4B /* JP_APEX_PREDATORS */,
+				141092042C03092100598B4B /* JP_APEX_PREDATORSTests */,
+				1410920E2C03092100598B4B /* JP_APEX_PREDATORSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		141091F32C03092000598B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141092002C03092100598B4B /* Preview Assets.xcassets in Resources */,
+				141091FD2C03092100598B4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141092032C03092100598B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1410920D2C03092100598B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		141091F12C03092000598B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141091FB2C03092000598B4B /* ContentView.swift in Sources */,
+				141091F92C03092000598B4B /* JP_APEX_PREDATORSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		141092012C03092100598B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1410920A2C03092100598B4B /* JP_APEX_PREDATORSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1410920B2C03092100598B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141092142C03092100598B4B /* JP_APEX_PREDATORSUITests.swift in Sources */,
+				141092162C03092100598B4B /* JP_APEX_PREDATORSUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		141092072C03092100598B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 141091F42C03092000598B4B /* JP_APEX_PREDATORS */;
+			targetProxy = 141092062C03092100598B4B /* PBXContainerItemProxy */;
+		};
+		141092112C03092100598B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 141091F42C03092000598B4B /* JP_APEX_PREDATORS */;
+			targetProxy = 141092102C03092100598B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		141092172C03092100598B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		141092182C03092100598B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1410921A2C03092100598B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JP_APEX_PREDATORS/Preview Content\"";
+				DEVELOPMENT_TEAM = 98UH276369;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.aman.app.JP-APEX-PREDATORS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1410921B2C03092100598B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JP_APEX_PREDATORS/Preview Content\"";
+				DEVELOPMENT_TEAM = 98UH276369;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.aman.app.JP-APEX-PREDATORS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1410921D2C03092100598B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98UH276369;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.aman.app.JP-APEX-PREDATORSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JP_APEX_PREDATORS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JP_APEX_PREDATORS";
+			};
+			name = Debug;
+		};
+		1410921E2C03092100598B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98UH276369;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.aman.app.JP-APEX-PREDATORSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JP_APEX_PREDATORS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JP_APEX_PREDATORS";
+			};
+			name = Release;
+		};
+		141092202C03092100598B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98UH276369;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.aman.app.JP-APEX-PREDATORSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JP_APEX_PREDATORS;
+			};
+			name = Debug;
+		};
+		141092212C03092100598B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 98UH276369;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.aman.app.JP-APEX-PREDATORSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JP_APEX_PREDATORS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		141091F02C03092000598B4B /* Build configuration list for PBXProject "JP_APEX_PREDATORS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141092172C03092100598B4B /* Debug */,
+				141092182C03092100598B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		141092192C03092100598B4B /* Build configuration list for PBXNativeTarget "JP_APEX_PREDATORS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1410921A2C03092100598B4B /* Debug */,
+				1410921B2C03092100598B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1410921C2C03092100598B4B /* Build configuration list for PBXNativeTarget "JP_APEX_PREDATORSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1410921D2C03092100598B4B /* Debug */,
+				1410921E2C03092100598B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1410921F2C03092100598B4B /* Build configuration list for PBXNativeTarget "JP_APEX_PREDATORSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				141092202C03092100598B4B /* Debug */,
+				141092212C03092100598B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 141091ED2C03092000598B4B /* Project object */;
+}
