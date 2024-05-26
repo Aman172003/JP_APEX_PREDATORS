@@ -14,6 +14,7 @@
 		1410920A2C03092100598B4B /* JP_APEX_PREDATORSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141092092C03092100598B4B /* JP_APEX_PREDATORSTests.swift */; };
 		141092142C03092100598B4B /* JP_APEX_PREDATORSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141092132C03092100598B4B /* JP_APEX_PREDATORSUITests.swift */; };
 		141092162C03092100598B4B /* JP_APEX_PREDATORSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141092152C03092100598B4B /* JP_APEX_PREDATORSUITestsLaunchTests.swift */; };
+		141092232C030A7100598B4B /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = 141092222C030A7100598B4B /* jpapexpredators.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1410920F2C03092100598B4B /* JP_APEX_PREDATORSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JP_APEX_PREDATORSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		141092132C03092100598B4B /* JP_APEX_PREDATORSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JP_APEX_PREDATORSUITests.swift; sourceTree = "<group>"; };
 		141092152C03092100598B4B /* JP_APEX_PREDATORSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JP_APEX_PREDATORSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		141092222C030A7100598B4B /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = jpapexpredators.json; path = JP17Resources/jpapexpredators.json; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				141091F82C03092000598B4B /* JP_APEX_PREDATORSApp.swift */,
 				141091FA2C03092000598B4B /* ContentView.swift */,
+				141092222C030A7100598B4B /* jpapexpredators.json */,
 				141091FC2C03092100598B4B /* Assets.xcassets */,
 				141091FE2C03092100598B4B /* Preview Content */,
 			);
@@ -233,6 +236,7 @@
 			files = (
 				141092002C03092100598B4B /* Preview Assets.xcassets in Resources */,
 				141091FD2C03092100598B4B /* Assets.xcassets in Resources */,
+				141092232C030A7100598B4B /* jpapexpredators.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
